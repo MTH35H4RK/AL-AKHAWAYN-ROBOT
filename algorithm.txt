@@ -1,0 +1,21 @@
+character "W" will set the top servo to 120 degree
+character "w" will set the top servo to 0 degree
+character "U" will set the top servo to 120 degree
+character "u" will set the top servo to 0 degree
+
+character "V" set shoulder to 90
+character "v" will set the shoulder to 0
+character "U" will set the shoulder to 180
+character "u" will set the shouder to 90
+
+character 0 will set servo degree to 0
+character 1 will set servo  degree to 20
+character 2 will set servo degree to 35
+character 3 will set servo degree to 50
+character 4 will set servo degree to 70
+character 5 will set servo deggre to 85
+character 6 will set servo degree to 100
+character 7 will set servo degree to 120
+character 8 will set servo degree to 140
+character 9 will set servo degree to 160
+character q will set servo degree to 180
