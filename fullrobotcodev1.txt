@@ -2,18 +2,18 @@
 #include <Servo.h>
 
 // Motor pins
-const int MOTOR_A_ENA = 8;
-const int MOTOR_A_IN1 = 9;
-const int MOTOR_A_IN2 = 10;
-const int MOTOR_B_ENB = 11;
-const int MOTOR_B_IN3 = 12;
-const int MOTOR_B_IN4 = 13;
+const int MOTOR_A_ENA = 2;
+const int MOTOR_A_IN1 = 3;
+const int MOTOR_A_IN2 = 4;
+const int MOTOR_B_ENB = 7;
+const int MOTOR_B_IN3 = 5;
+const int MOTOR_B_IN4 = 6;
 
 // Servo pins
-const int TOP_SERVO_PIN = 3;
-const int BOTTOM_SERVO_PIN = 2;
-const int SHOULDER_SERVO_PIN = 4;
-const int BASE_SERVO_PIN = 5;
+const int TOP_SERVO_PIN = 11;
+const int BOTTOM_SERVO_PIN = 10;
+const int SHOULDER_SERVO_PIN = 9;
+const int BASE_SERVO_PIN = 8;
 
 // Servo angles
 enum ServoAngle {
@@ -44,7 +44,7 @@ enum ServoAngle {
   BASE_180_ANGLE = 180,
 };
 
-SoftwareSerial BTserial(0, 1);
+SoftwareSerial BTserial(13, 12);
 
 Servo topServo;
 Servo bottomServo;
